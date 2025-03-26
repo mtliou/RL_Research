@@ -1,0 +1,49 @@
+import numpy as np
+
+from typing import List, Tuple
+from path_generators.regular_line import generate_points
+from path_generators.brownian_walk import generate_and_plot
+from path_generators.levy_flight import LevyWalk
+
+def generate_path(path: str, path_len: int, N:int) -> List[Tuple[int, int]]:
+    """
+    Given a type of path, and it's length, generate a list of coordinates on that path.
+
+    :param path: the type of path to generate.
+    :param path_len: the length of the path.
+    :return: a list of coordinates on that path.
+    """
+    if path == 'straight':
+        return generate_points(path_len, N)
+    elif path == 'brownian':
+        return generate_and_plot(path_len, N)
+    elif path == 'levy':
+        levy_walk = LevyWalk(alpha=1.5, beta=0, max_dist=path_len * 2)
+        return levy_walk.generate_path(path_len, N)
+    else:
+        raise ValueError(f"Unknown path_type: {path}")
+
+
+def apply_corruption(images: List[np.ndarray], corruption: str) -> List[np.ndarray]:
+    """
+    Given a list of images, use a uniform distribution to add noise to the image. The noise is added in 3 different
+    levels:
+        - none: return the original image.
+        - low: add noise to the image by adding a uniformly random chosen number between -0.1 and 0.1 for each pixel.
+        - medium: add noise to the image by adding a uniformly random chosen number between -0.25 and 0.25 for each
+        pixel.
+        - high: add noise to the image by adding a uniformly random chosen number between -0.5 and 0.5 for each pixel.
+
+    :param images: the image to be corrupted.
+    :param corruption: the level of corruption to do on the image.
+    :return: the corrupted image.
+    """
+    if corruption == 'none':
+        return images
+    elif corruption == 'low':
+        noise = [np.array(sub_array) + np.random.uniform(-1, 1, sub_array.shape) for sub_array in images]
+    elif corruption == 'medium':
+        noise = [np.array(sub_array) + np.random.uniform(-1.25, 1.25, sub_array.shape) for sub_array in images]
+    else:
+        noise = [np.array(sub_array) + np.random.uniform(-1.5, 1.5, sub_array.shape) for sub_array in images]
+    return noise

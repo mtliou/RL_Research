@@ -1,0 +1,26 @@
+Method,MASE_Mean,MASE_Std,sMAPE_Mean,sMAPE_Std
+Hourly Method 1,7.3773,0.3152,17.88,0.0083
+Hourly Method 2,8.7052,0.571,21.58,0.0162
+Hourly Method 3,7.7503,0.315,18.89,0.0087
+Hourly Method 4,8.5266,0.7111,21.09,0.0199
+Hourly Best Competitor,0.801,,8.913,
+Daily Method 1,0.4968,0.0809,9.14,0.0159
+Daily Method 2,0.4993,0.0449,9.2,0.0085
+Daily Method 3,0.443,0.0419,8.09,0.0073
+Daily Method 4,0.52,0.038,9.59,0.0072
+Daily Best Competitor,2.642,,2.452,
+Weekly Method 1,5.105,0.001,58.44,0.0001
+Weekly Method 2,4.9737,0.0188,57.68,0.0011
+Weekly Method 3,5.0974,0.0146,58.39,0.0009
+Weekly Method 4,5.0014,0.0239,57.84,0.0014
+Weekly Best Competitor,2.107,,6.582,
+Monthly Method 1,4.7893,0.007,21.49,0.0003
+Monthly Method 2,4.7316,0.0034,21.27,0.0001
+Monthly Method 3,4.794,0.0035,21.51,0.0001
+Monthly Method 4,4.7677,0.0007,21.41,0.0
+Monthly Best Competitor,0.884,,12.126,
+Yearly Method 1,0.8621,0.1991,6.66,0.0176
+Yearly Method 2,2.1797,0.359,18.37,0.0299
+Yearly Method 3,0.8391,0.1941,6.47,0.0173
+Yearly Method 4,2.2221,0.3495,18.73,0.0287
+Yearly Best Competitor,2.98,,13.176,

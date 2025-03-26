@@ -1,0 +1,70 @@
+MASE Mean,MASE Std,sMAPE Mean,sMAPE Std,Category,Method
+7.3773,0.3152,17.88,0.0083,Hourly,Method 1
+8.7052,0.571,21.58,0.0162,Hourly,Method 2
+7.7503,0.315,18.89,0.0087,Hourly,Method 3
+8.5266,0.7111,21.09,0.0199,Hourly,Method 4
+0.801,0,8.913,0,Hourly,first Best Competitor Doornik et al.
+0.893,0,9.328,0,Hourly,second Best Competitor Smyl
+0.873,0,9.611,0,Hourly,third Best Competitor Pawlikowski et al.
+2.607,0,13.842,0,Hourly,MLP benchmark
+3.048,0,14.698,0,Hourly,RNN benchmark
+8.6947,0,21.53,0,Hourly,New Algorithm
+31420.85,0,147.58,0,Hourly,New Algorithm II
+11.8249,0,29.27,0,Hourly,New modified Algorithm II
+7.6025,0,18.53,0,Hourly,New Algorithm III
+
+0.4968,0.0809,9.14,0.0159,Daily,Method 1
+0.4993,0.0449,9.2,0.0085,Daily,Method 2
+0.443,0.0419,8.09,0.0073,Daily,Method 3
+0.52,0.038,9.59,0.0072,Daily,Method 4
+2.642,0,2.452,0,Daily, first Best Competitor Pawlikowski et al.
+2.852,0,3.025,0,Daily, second Best Competitor Tartu M4 seminar
+2.985,0,3.194,0,Daily, third Best Competitor Fiorucci & Louzada
+9.321,0,12.97,0,Daily,MLP benchmark
+5.964,0,6.232,0,Daily,RNN benchmark
+0.4867,0,8.97,0,Daily,New Algorithm
+14.5198,0,65.73,0,Daily,New Algorithm II
+0.6358,0,11.99,0,Daily,New modified Algorithm II
+0.4973,0,9.07,0,Daily,New Algorithm III
+
+5.105,0.001,58.44,0.0001,Weekly,Method 1
+4.9737,0.0188,57.68,0.0011,Weekly,Method 2
+5.0974,0.0146,58.39,0.0009,Weekly,Method 3
+5.0014,0.0239,57.84,0.0014,Weekly,Method 4
+2.107,0,6.582,0,Weekly, first Best Competitor Darin & Stellwagen
+2.133,0,6.806,0,Weekly, second Best Competitor Petropoulos & Svetunkov
+2.158,0,6.919,0,Weekly, third Best Competitor Pawlikowski et al.
+13.568,0,21.349,0,Weekly,MLP benchmark
+5.132,0,15.22,0,Weekly,RNN benchmark
+5.02,0,57.96,0,Weekly,New Algorithm
+62.55,0,73.14,0,Weekly,New Algorithm II
+5.6829,0,58.67,0,Weekly,New modified Algorithm II
+6.1556,0,74.1,0,Weekly,New Algorithm III
+
+4.7893,0.007,21.49,0.0003,Monthly,Method 1
+4.7316,0.0034,21.27,0.0001,Monthly,Method 2
+4.794,0.0035,21.51,0.0001,Monthly,Method 3
+4.7677,0.0007,21.41,0.0,Monthly,Method 4
+0.884,0,12.126,0,Monthly, first Best Competitor Smyl
+0.895,0,12.487,0,Monthly, second Best CompetitorJaganathan & Prakash
+0.893,0,12.639,0,Monthly, third Best Competitor Montero-Manso et al.
+1.925,0,24.333,0,Monthly,MLP benchmark
+1.601,0,24.056,0,Monthly,RNN benchmark
+4.77,0,21.42,0,Monthly,New Algorithm
+41.8939,0,50.78,0,Monthly,New Algorithm II
+4.8661,0,21.68,0,Monthly,New modified Algorithm II
+9.9995,0,39.78,0,Monthly,New Algorithm III
+
+0.8621,0.1991,6.66,0.0176,Yearly,Method 1
+2.1797,0.359,18.37,0.0299,Yearly,Method 2
+0.8391,0.1941,6.47,0.0173,Yearly,Method 3
+2.2221,0.3495,18.73,0.0287,Yearly,Method 4
+2.98,0,13.176,0,Yearly, first Best Competitor Smyl
+3.009,0,13.366,0,Yearly, second Best Competitor Legaki & Koutsouri
+3.06,0,13.528,0,Yearly, third  Best Competitor Montero-Manso et al.
+4.946,0,21.764,0,Yearly,MLP benchmark
+4.946,0,22.398,0,Yearly,RNN benchmark
+1.9026,0,16.62,0,Yearly,New Algorithm
+2.1991,0,19.75,0,Yearly,New Algorithm II
+2.5435,0,22.29,0,Yearly,New modified Algorithm II
+2.0102,0,16.33,0,Yearly,New Algorithm III
